@@ -1,0 +1,15 @@
+[project]
+name="WebScraperBot_lightnovelworld.co"
+version = "0.0.1"
+authors = [
+	{ name = "Kyyros"}
+description = "web scraper bot to get novels"
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Operating System" :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
