@@ -78,7 +78,7 @@ for indexPage in range(startPage,endPage+1):
             print(href_value)
             driver2.get(href_value)
         
-            WebDriverWait(driver2, 30).until(
+            WebDriverWait(driver2, 10).until(
                 lambda driver2: driver2.execute_script("return document.readyState") == "complete"
             )
             chapter_container = driver2.find_element(By.ID, "chapter-container")
