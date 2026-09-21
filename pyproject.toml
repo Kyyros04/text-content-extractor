@@ -3,7 +3,7 @@ name="WebScraperBot_lightnovelworld.co"
 version = "0.0.1"
 authors = [
 	{ name = "Kyyros"}
-description = "web scraper bot to get novels"
+description = "web scraper bot to extract text content"
 readme = "README.md"
 requires-python = ">=3"
 classifiers = [
